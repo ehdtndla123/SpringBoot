@@ -9,6 +9,6 @@ public class MainContoroller {
     @RequestMapping("/sbb")
     @ResponseBody
     public String index(){
-        return "안녕하세요 sbb에 오신것을 환영합니다ㅇㄴㅁ";
+        return "https://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@github.com/ehdtndla123/JAVA_STUDY.git";
     }
 }
