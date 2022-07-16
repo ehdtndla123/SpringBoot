@@ -11,4 +11,8 @@ public class MainContoroller {
     public String index(){
         return "https://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@github.com/ehdtndla123/JAVA_STUDY.git";
     }
+    @RequestMapping("/")
+    public String root(){
+        return "redirect:question/list";
+    }
 }
